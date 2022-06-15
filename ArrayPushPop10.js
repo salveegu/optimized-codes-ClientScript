@@ -1,10 +1,13 @@
-let pessoa = {
-    nome: 'gustavo',
-}
+let pessoa = ["Matheus","Maria","José"];
 
+console.log(pessoa);
 
-console.log(pessoa.nome);
+//let removendoElement = pessoa.pop();
 
-let removendoElement = pessoa.nome.pop();
+let addElement = pessoa.push("André");
 
-console.log(removendoElement);
+console.log("Adicionando um elemento: "+pessoa);
+
+let removendoElement = pessoa.pop();
+
+console.log("Removendo um elemento: "+pessoa);
